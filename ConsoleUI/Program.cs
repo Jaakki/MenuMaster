@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using MenuMaster;
 
 namespace ConsoleUI
 {
@@ -7,7 +9,11 @@ namespace ConsoleUI
         static void Main(string[] args)         //täällä luodaan restaurant, menu, ruoka ja juoma
         {
 
-            List<Restaurant>
+            List<Restaurant> list = new List<Restaurant>();
+            Restaurant restaurant = new Restaurant();
+
+
+            restaurant = new Restaurant();
 
             Console.Write("Type restaurant name: ");
             string resName = Console.ReadLine();

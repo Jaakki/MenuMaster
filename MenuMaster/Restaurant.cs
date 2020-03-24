@@ -8,5 +8,7 @@ namespace MenuMaster
     {
         public string resName;
         public string resLocation;
+        public int Name { get; set; }
+        public int Location { get; set; }
     }
 }

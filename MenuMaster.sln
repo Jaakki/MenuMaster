@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuMaster", "MenuMaster\MenuMaster.csproj", "{D0246A75-EEA5-46AB-A67A-687B0787CC3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuMasterLibrary", "MenuMaster\MenuMasterLibrary.csproj", "{D0246A75-EEA5-46AB-A67A-687B0787CC3E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{D264C87B-20DB-41B1-9857-B130E1891310}"
 EndProject
