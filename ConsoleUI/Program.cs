@@ -8,17 +8,10 @@ namespace ConsoleUI
     {
         static void Main(string[] args)         //täällä luodaan restaurant, menu, ruoka ja juoma
         {
+            Restaurant restaurant = new Restaurant();
+            restaurant.CreateRestaurant();
 
             List<Restaurant> list = new List<Restaurant>();
-            Restaurant restaurant = new Restaurant();
-
-
-            restaurant = new Restaurant();
-
-            Console.Write("Type restaurant name: ");
-            string resName = Console.ReadLine();
-            Console.Write("Type restaurant location: ");
-            string resLocation = Console.ReadLine();
 
             Console.Write("Type food name: ");
             string fodName = Console.ReadLine();

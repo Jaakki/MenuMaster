@@ -10,5 +10,6 @@ namespace MenuMaster
         public string driCost;
         public int Name { get; set; }
         public int Cost { get; set; }
+
     }
 }
